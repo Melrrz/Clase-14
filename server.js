@@ -9,7 +9,8 @@ const handleRoute = function (req, res){
 app.get ('/', handleRoute);
 
 app.post('/another-route', function (req, res) {
-res.send(`Hello to another route!`};
+    console.log(req);
+    res.send(`Hello to another route!`);
 })
 
 app.put('/', function (req,res) { 
@@ -17,5 +18,5 @@ res.send(`this is a put route`);
 })
 
 app.delete('/', function (req, res){
-    res.send(`this is a put route`);
+    res.send(`this is a delete route`);
 })
