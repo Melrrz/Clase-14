@@ -2,10 +2,20 @@ const express = require('express')
 const app = express()
 const port = 9000
 
-app.get('/', function (req, res) {
-res.send('Hello World!')
+const handleRoute = function (req, res){
+    res.send('Hello World');
+};
+
+app.get ('/', handleRoute);
+
+app.post('/another-route', function (req, res) {
+res.send(`Hello to another route!`};
 })
 
-app.listen(port, function () { 
-console.log(`Example app listening on port ${port}!`)
+app.put('/', function (req,res) { 
+res.send(`this is a put route`);
+})
+
+app.delete('/', function (req, res){
+    res.send(`this is a put route`);
 })
