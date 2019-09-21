@@ -1,0 +1,20 @@
+{
+  "name": "clase-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melrrz/clase-14.git"
+  },
+  "keywords": [],
+  "author": "Melrrz <mely.rrz@gmail.com>",
+  "license": "Hola",
+  "bugs": {
+    "url": "https://github.com/Melrrz/clase-14/issues"
+  },
+  "homepage": "https://github.com/Melrrz/clase-14#readme"
+}
